@@ -21,9 +21,13 @@ Tópicos a serem abordados:
 
    
 2. Virtualenv
-    1. Criando e ativando o virtualenv
+   1. Criação
+   2. Ativação
+   3. Desativação
+
 
 3. Pip
-    1. Instalar
-    2. Atualizar
-    3. Desinstalar
+   1. Instalar
+   2. Atualizar
+   3. Desinstalar
+   4. Requirements
