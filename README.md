@@ -70,3 +70,4 @@ Tópicos a serem abordados:
          ```console
          flake8
          ```
+4. Travis CI [![Build Status](https://www.travis-ci.com/victorbaptistalemos/libpythonpro.svg?branch=main)](https://www.travis-ci.com/victorbaptistalemos/libpythonpro)
