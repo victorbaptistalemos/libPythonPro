@@ -70,4 +70,10 @@ Tópicos a serem abordados:
          ```console
          flake8
          ```
-4. Travis CI [![Build Status](https://www.travis-ci.com/victorbaptistalemos/libpythonpro.svg?branch=main)](https://www.travis-ci.com/victorbaptistalemos/libpythonpro)
+4. Travis CI
+   [![Build Status](https://www.travis-ci.com/victorbaptistalemos/libpythonpro.svg?branch=main)](https://www.travis-ci.com/victorbaptistalemos/libpythonpro)
+   
+
+5. PyUp 
+   [![Updates](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
+   [![Python 3](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
