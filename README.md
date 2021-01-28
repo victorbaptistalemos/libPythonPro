@@ -13,12 +13,40 @@ Suportada a versão 3 do Python.
 Tópicos a serem abordados:
 
 1. Git
-   1. Clone 
+   1. Clone
+      ```
+      Copia um repositório através do link HTTPS ou SSH.
+      ```
    2. Fork
+      ```
+      Cria uma cópia a partir de outro repositório.
+      Utilizado para fazer melhorias em projetos de
+      código aberto que você não tenha permissão
+      para modificar. 
+      ```
    3. Branch
+      ```
+      Utilizada para fazer alterações independentes no código.
+      Caso a modificação na branch criada dê algum priblema,
+      esta pode ser excluída sem alterar o código principal.
+      ```
    4. Pull request
+      ```
+      Utilizada para solicitar a inclusão de uma alteração
+      código na branch principal.
+      ```
    5. Issues
+      ```
+      Utilizada para solicitar melhorias no código.
+      ```
    6. Feature branch
+      ```
+      Utilizada por outro contribuidor para fazer melhorias em seu código.
+      ```
+   7. Tag
+      ```
+      Marca a distribuição de uma release.
+      ```
 
    
 2. Virtualenv
@@ -77,3 +105,17 @@ Tópicos a serem abordados:
 5. PyUp 
    [![Updates](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
    [![Python 3](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
+
+6. PyPI
+   1. Instalação do twine
+      ```console
+      pip install twine
+      ```
+   2. Criação de distribuição
+      ```console
+      python setup.py sdist
+      ```
+   3. Envio da distribuição ao PyPI
+      ```console
+      twine upload dist/*
+      ```
