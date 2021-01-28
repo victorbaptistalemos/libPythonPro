@@ -106,6 +106,7 @@ Tópicos a serem abordados:
    [![Updates](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
    [![Python 3](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
 
+
 6. PyPI
    1. Instalação do twine
       ```console
@@ -119,3 +120,11 @@ Tópicos a serem abordados:
       ```console
       twine upload dist/*
       ```
+
+
+7. PyTest
+   1. Instalaçáo
+      ```console
+      pip install pytest
+      ```
+   2. Criando testes e a utilização da palavra reservada `assert`

@@ -1,3 +1,10 @@
+# Inspeção de cógigo segundo a PEP 8
 flake8==3.8.4
+
+# Envio de release ao PyPI
 twine==3.3.0
+
+# Automatização de testes
+pytest==6.2.2
+
 -r requirements.txt
