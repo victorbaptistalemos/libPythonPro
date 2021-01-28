@@ -109,7 +109,7 @@ setup(
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license=read('LICENSE'),
+    license='GNU AFFERO GENERAL PUBLIC LICENSE',
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
@@ -120,7 +120,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.8.6",
+        "Programming Language :: Python :: 3.8",
         "Framework :: Pytest",
     ],
     install_requires=[
