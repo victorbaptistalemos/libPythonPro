@@ -128,3 +128,4 @@ Tópicos a serem abordados:
       pip install pytest
       ```
    2. Criando testes e a utilização da palavra reservada `assert`
+   3. Cobertura de testes: [![codecov](https://codecov.io/gh/victorbaptistalemos/libpythonpro/branch/main/graph/badge.svg?token=5YMELE1KML)](https://codecov.io/gh/victorbaptistalemos/libpythonpro)

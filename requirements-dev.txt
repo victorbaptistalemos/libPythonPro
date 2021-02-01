@@ -6,5 +6,6 @@ twine==3.3.0
 
 # Automatização de testes
 pytest==6.2.2
+pytest-cov==2.11.1
 
 -r requirements.txt
