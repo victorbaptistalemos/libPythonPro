@@ -129,3 +129,8 @@ Tópicos a serem abordados:
       ```
    2. Criando testes e a utilização da palavra reservada `assert`
    3. Cobertura de testes: [![codecov](https://codecov.io/gh/victorbaptistalemos/libpythonpro/branch/main/graph/badge.svg?token=5YMELE1KML)](https://codecov.io/gh/victorbaptistalemos/libpythonpro)
+   4. Desenvolvimento Orientado a Testes (TDD).
+   5. Parametrização de testes com o decorator `@pytest.mark.parametrize`
+   6. Técnica do baby steps (desenvolvimento passo a passo).
+   7. Testes de Exceções.
+   
