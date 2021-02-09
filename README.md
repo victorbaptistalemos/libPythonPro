@@ -1,5 +1,7 @@
 # victorbaptistalemos_libpythonpro
 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 Módulo para exemplificar construção de projetos Python no curso PyTools.
 
 Nesse curso é ensinado como contribuir para projetos de código aberto.
@@ -129,3 +131,4 @@ Tópicos a serem abordados:
       ```
    2. Criando testes e a utilização da palavra reservada `assert`
    3. Cobertura de testes: [![codecov](https://codecov.io/gh/victorbaptistalemos/libpythonpro/branch/main/graph/badge.svg?token=5YMELE1KML)](https://codecov.io/gh/victorbaptistalemos/libpythonpro)
+   4. PyTest Fixtures
