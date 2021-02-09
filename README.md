@@ -1,5 +1,7 @@
 # victorbaptistalemos_libpythonpro
 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 Módulo para exemplificar construção de projetos Python no curso PyTools.
 
 Nesse curso é ensinado como contribuir para projetos de código aberto.
@@ -133,4 +135,5 @@ Tópicos a serem abordados:
    5. Parametrização de testes com o decorator `@pytest.mark.parametrize`
    6. Técnica do baby steps (desenvolvimento passo a passo).
    7. Testes de Exceções.
-   
+   8. PyTest Fixtures
+   9. Utilização da palavra reservada `yield`
