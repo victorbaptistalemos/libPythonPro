@@ -6,7 +6,7 @@ from victorbaptistalemos_libpythonpro import github_api
 
 
 @pytest.fixture
-def avatar_url():
+def avatar_url(mocker):
     # Cria uma classe substituta
     resp_mock = Mock()
     url = 'https://avatars.githubusercontent.com/u/52052351?v=4'
@@ -17,17 +17,10 @@ def avatar_url():
         "avatar_url": "https://avatars.githubusercontent.com/u/52052351?v=4",
         "url": "https://api.github.com/users/victorbaptistalemos"
     }
-    # Setup
-    # Separa o método get em uma variável
-    get_github_api = github_api.requests.get
-    # Depois altera o método get recebendo uma classe substituta
-    # Dessa forma o teste não depende mais de internet para funcionar
-    github_api.requests.get = Mock(return_value=resp_mock)
-    url = github_api.buscar_avatar('victorbaptistalemos')
-    yield url
-    # Tier Down
-    # Depois do teste retorna o método get a sua asssinatura original
-    github_api.requests.get = get_github_api
+    # Utiliza a lib pytest-mock para controlar a assinatura do método
+    get_mock = mocker.patch('victorbaptistalemos_libpythonpro.github_api.requests.get')
+    get_mock.return_value = resp_mock
+    return url
 
 
 def test_buscar_avatar(avatar_url):
