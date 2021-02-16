@@ -135,5 +135,9 @@ Tópicos a serem abordados:
    5. Parametrização de testes com o decorator `@pytest.mark.parametrize`
    6. Técnica do baby steps (desenvolvimento passo a passo).
    7. Testes de Exceções.
-   8. PyTest Fixtures
-   9. Utilização da palavra reservada `yield`
+   8. PyTest Fixtures.
+   9. Utilização da palavra reservada `yield`.
+   10. Utilização e escopo do arquivo `conftest.py`.
+   11. Injeção de dependências.
+   12. Classe `Mock()` da biblioteca `unittest.mock`.
+   13. Utilização da API `pytest-mock` e seu método `mocker.patch()`.
