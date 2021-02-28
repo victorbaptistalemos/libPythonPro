@@ -24,7 +24,7 @@ Tópicos a serem abordados:
       Cria uma cópia a partir de outro repositório.
       Utilizado para fazer melhorias em projetos de
       código aberto que você não tenha permissão
-      para modificar. 
+      para modificar.
       ```
    3. Branch:
       ```
@@ -50,7 +50,7 @@ Tópicos a serem abordados:
       Marca a distribuição de uma release.
       ```
 
-   
+
 2. Virtualenv
    1. Criar:
       ```console
@@ -102,11 +102,10 @@ Tópicos a serem abordados:
          ```
 4. Travis CI
    [![Build Status](https://www.travis-ci.com/victorbaptistalemos/libpythonpro.svg?branch=main)](https://www.travis-ci.com/victorbaptistalemos/libpythonpro)
-   
+
 
 5. PyUp
    [![Updates](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
-   [![Python 3](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/victorbaptistalemos/libpythonpro/)
 
 
 6. PyPI
@@ -158,7 +157,7 @@ Tópicos a serem abordados:
          export PIPENV_VENV_IN_PROJECT=1
          ```
       4. Reiniciar terminal para obter os efeitos desejados.
-   
+
    2. Instalação de dependências:
       ```console
       pipenv install requests
